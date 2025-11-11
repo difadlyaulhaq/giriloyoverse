@@ -325,8 +325,10 @@ const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
             <div className="flex-1 relative">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=600&h=700&fit=crop&q=80"
+                  src="/female-batik.jpg"
                   alt="Customize"
+                  width={400}
+                  height={400}
                   className="rounded-3xl shadow-2xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-xl">
