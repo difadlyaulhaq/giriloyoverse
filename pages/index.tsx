@@ -148,12 +148,12 @@ const GiriloyoLanding = () => {
           <div className="flex justify-between items-center h-16 lg:h-20">
             <div className="flex items-center space-x-3">
               <Image 
-                src="/logo-web.png"
-                alt="Logo"
-                width={120}
-                height={120}
-                className="w-auto h-12 lg:h-14 object-contain"
-              />
+                  src="/logo-web.png"
+                  alt="Logo"
+                  width={40}
+                  height={40}
+                  className="w-40 h-30 object-contain"
+                />
             </div>
             
             {/* Desktop Menu */}
@@ -744,13 +744,13 @@ const GiriloyoLanding = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
             {/* Brand */}
             <div className="sm:col-span-2">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-4 bg-white px-3 py-2 rounded-2xl w-max border border-amber-800/30">
                 <Image 
                   src="/logo-web.png"
                   alt="Logo"
-                  width={150}
-                  height={60}
-                  className="w-auto h-12 object-contain"
+                  width={40}
+                  height={40}
+                  className="w-30 h-20 object-contain"
                 />
               </div>
               <p className="text-stone-400 mb-6 text-sm lg:text-base leading-relaxed">
